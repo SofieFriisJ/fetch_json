@@ -7,11 +7,11 @@ Beskrivelse af hvad der sker fra linje 33 i index.js filen:
 
 3. Inden i try-blokken udfører vi følgende trin:
 
-a. Vi bruger await sammen med fetch-funktionen til at hente data fra en JSON-fil. Dette kan tage tid, da det involverer at kontakte en server og vente på et svar. Vi gemmer svaret i variablen ‘response’.
-
-b. Derefter bruger vi igen await sammen med .json()-metoden på response-objektet for at konvertere det hentede data fra JSON-formatet til et JavaScript-objekt. Vi gemmer dette objekt i variablen ‘posts’.
-
-c. Nu har vi en liste af indlæg (posts), som vi hentede fra JSON-filen. Vi bruger en forEach-loop til at gennemgå hvert enkelt indlæg i listen.
+  a. Vi bruger await sammen med fetch-funktionen til at hente data fra en JSON-fil. Dette kan tage tid, da det involverer at kontakte en server og vente på et svar. Vi gemmer     svaret i variablen ‘response’.
+  
+  b. Derefter bruger vi igen await sammen med .json()-metoden på response-objektet for at konvertere det hentede data fra JSON-formatet til et JavaScript-objekt. Vi gemmer dette objekt i variablen ‘posts’.
+  
+  c. Nu har vi en liste af indlæg (posts), som vi hentede fra JSON-filen. Vi bruger en forEach-loop til at gennemgå hvert enkelt indlæg i listen.
 
 4. Hvis der opstår en fejl under nogen af de tidligere trin (hentning af data eller ‘parsing’ af JSON), bliver koden i try-blokken stoppet, og catch-blokken tager over.
 
