@@ -1,5 +1,3 @@
-TEST
-
 Beskrivelse af hvad der sker fra linje 33 i index.js filen:
 
 
